@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:member",
+ "creation": "2024-02-11 14:46:07.742582",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "column_break_ivuzj",
+  "account",
+  "section_break_opr5p",
+  "tithes",
+  "offering",
+  "column_break_o5yuq",
+  "thanks_offering",
+  "campmeeting_offering",
+  "total_offering"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_ivuzj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "label": "Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_opr5p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tithes",
+   "fieldtype": "Currency",
+   "label": "Tithes"
+  },
+  {
+   "fieldname": "offering",
+   "fieldtype": "Data",
+   "label": "Offering"
+  },
+  {
+   "fieldname": "column_break_o5yuq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "thanks_offering",
+   "fieldtype": "Data",
+   "label": "Thanks Offering"
+  },
+  {
+   "fieldname": "campmeeting_offering",
+   "fieldtype": "Data",
+   "label": "Campmeeting Offering"
+  },
+  {
+   "fieldname": "total_offering",
+   "fieldtype": "Currency",
+   "label": "Total Offering"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-11 15:42:05.708453",
+ "modified_by": "Administrator",
+ "module": "CMSLocal",
+ "name": "Offerings",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "member"
+}
